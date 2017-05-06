@@ -1,0 +1,177 @@
+.card {
+  position: relative;
+  width: 3.875rem;
+  height: 5.5rem;
+  background-color: black;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+  cursor: default;
+}
+.card:before,
+.card:after {
+  position: absolute;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.5rem;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  white-space: pre-line;
+  width: 0.55rem;
+}
+.card:before,
+.card:after {
+  bottom: 0.25rem;
+  right: 46%;
+  vertical-align: -50%;
+}
+.card .face {
+  height: 100%;
+  background-position: 50% 50%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*
+.card.aquarium .face {
+  background-image: url("../cards/aquarium.svg");
+}
+.card.carrot .face {
+  background-image: url("../cards/carrot.svg");
+}
+.card.cloud .face {
+  background-image: url("../cards/cloud.svg");
+}
+.card.fish .face {
+  background-image: url("../cards/fish.svg");
+}
+.card.flash .face {
+  background-image: url("../cards/flash.svg");
+}
+.card.ice .face {
+  background-image: url("../cards/ice.svg");
+}
+.card.rain .face {
+  background-image: url("../cards/rain.svg");
+}
+.card.snow .face {
+  background-image: url("../cards/snow.svg");
+}
+.card.snowman .face {
+  background-image: url("../cards/snowman.svg");
+}
+.card.water .face {
+  background-image: url("../cards/water.svg");
+}*/
+
+.card.aquarium .face {
+  background-image: url("../svg/aquarium.svg");
+}
+.card.aquarium {
+  background-color: #2036d3;
+}
+.card.aquarium:before,
+.card.aquarium:after {
+  content: "Aquarium";
+}
+
+.card.carrot .face {
+  background-image: url("../svg/carrot.svg");
+}
+.card.carrot {
+  background-color: #16d880;
+}
+.card.carrot:before,
+.card.carrot:after {
+  content: "Carrot";
+}
+
+.card.cloud .face {
+  background-image: url("../svg/cloud.svg");
+}
+.card.cloud {
+  background-color: #5262ff;
+}
+.card.cloud:before,
+.card.cloud:after {
+  content: "Cloud";
+}
+
+.card.fish .face {
+  background-image: url("../svg/fish.svg");
+}
+.card.fish {
+  background-color: #fdc9fb;
+}
+.card.fish:before,
+.card.fish:after {
+  content: "Fish";
+}
+
+.card.flash .face {
+  background-image: url("../svg/flash.svg");
+}
+.card.flash {
+  background-color: #f5f4f2;
+}
+.card.flash:before,
+.card.flash:after {
+  content: "Flash";
+}
+
+.card.ice .face {
+  background-image: url("../svg/ice.svg");
+}
+.card.ice {
+  background-color: #a8fef0;
+}
+.card.ice:before,
+.card.ice:after {
+  content: "Ice";
+}
+
+.card.rain .face {
+  background-image: url("../svg/rain.svg");
+}
+.card.rain {
+  background-color: #5262ff;
+}
+.card.rain:before,
+.card.rain:after {
+  content: "Rain";
+}
+
+.card.snow .face {
+  background-image: url("../svg/snow.svg");
+}
+.card.snow {
+  background-color: #fc586e;
+}
+.card.snow:before,
+.card.snow:after {
+  content: "Snow";
+}
+
+.card.snowman .face {
+  background-image: url("../svg/snowman.svg");
+}
+.card.snowman {
+  background-color: #fc586e;
+}
+.card.snowman:before,
+.card.snowman:after {
+  content: "Snowman";
+}
+
+.card.water .face {
+  background-image: url("../svg/water.svg");
+}
+.card.water {
+  background-color: #a8fef0;
+}
+.card.water:before,
+.card.water:after {
+  content: "Water";
+}

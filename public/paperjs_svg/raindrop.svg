@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="94px" viewBox="0 0 79 94" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rain" transform="translate(-761.000000, -646.000000)" fill-rule="nonzero" fill="#7294F6">
+            <path d="M805.676628,648.287099 C802.728811,645.237634 797.372698,645.237634 794.4327,648.287099 L772.312345,671.189369 C757.229218,686.812017 757.229218,712.23205 772.312345,727.854698 C779.709254,735.509639 789.553555,739.731976 800.054664,739.731976 C810.547954,739.731976 820.400074,735.509639 827.796983,727.854698 C842.88011,712.23205 842.88011,686.812017 827.796983,671.189369 L805.676628,648.287099 Z"
+                  id="Shape"></path>
+        </g>
+    </g>
+</svg>

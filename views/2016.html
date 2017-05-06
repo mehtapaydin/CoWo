@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="styles/2016.css">
+    <script type="text/javascript" src="js/bodymovin.js"></script>
+</head>
+
+<body>
+
+<div id='container'></div>
+
+<script type="text/javascript">
+
+  var animData = {
+    container: document.getElementById('container'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://labs.nearpod.com/bodymovin/demo/2016/data.json'
+  };
+
+  var anim = bodymovin.loadAnimation(animData);
+
+</script>
+
+</body>
+
+</html>

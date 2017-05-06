@@ -1,0 +1,22 @@
+{
+  "name": "collaboration",
+  "subdomain": "collaboration",
+  "version": "0.0.1",
+  "author": "mfa",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "morgan": "~1.7.0",
+    "paper": "^0.11.2",
+    "socket.io": "^1.7.3"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

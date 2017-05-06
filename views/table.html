@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/table.css">
+    <link rel="stylesheet" type="text/css" href="styles/cards.css">
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/table.js"></script>
+    <script type="text/javascript" src="js/qrcode.js"></script>
+    <script type="text/javascript" src="js/bodymovin.js"></script>
+
+    <!--animation related-->
+    <script src="animation_data/aquariumAnimation.js"></script>
+    <script src="animation_data/rainAnimation.js"></script>
+    <script src="animation_data/snowAnimation.js"></script>
+    <script src="animation_data/snowmanAnimation.js"></script>
+    <script src="js/runAnimationWithData.js"></script>
+    <title>Table</title>
+</head>
+<body>
+<!-- Pointer to indicate phone direction-->
+<div id="phone-move" class="path"></div>
+<!-- Waiting for phone to connect banner -->
+<div id="waiting-for-device">
+    <div class="section">
+        <span>Go to following address at your device:</span>
+        <span id="url"></span>
+    </div>
+    <div id="placeholder"></div>
+    <div class="section">
+        <span>Waiting 2 phone to connect ...</span>
+    </div>
+</div>
+
+<div id='animation-container'></div>
+
+</body>
+</html>
