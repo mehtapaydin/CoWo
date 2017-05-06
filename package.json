@@ -1,8 +1,8 @@
 {
-  "name": "collaboration",
-  "subdomain": "collaboration",
+  "name": "CoWo",
+  "description": "Collaborative Social Learning experiment based on language learning and communication patterns",
   "version": "0.0.1",
-  "author": "mfa",
+  "author": "Mehtap Aydin",
   "scripts": {
     "start": "node app"
   },
