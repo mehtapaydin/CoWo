@@ -126,21 +126,7 @@ function getRandomCard() {
   }
 }
 
-// function getRandomType() {
-//   var types = [
-//     "aquarium",
-//     "carrot",
-//     "cloud",
-//     "fish",
-//     "flash",
-//     "ice",
-//     "rain",
-//     "snow",
-//     "snowman",
-//     "water"
-//   ];
-//   return types[getRandomNumber(0, 9)];
-// }
+
 
 function getRandomType() {
   // just use animation related cards for now!

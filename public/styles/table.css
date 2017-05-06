@@ -34,9 +34,12 @@ html {
 
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("https://wallpaperscraft.com/image/black_background_lines_scratches_69440_1920x1080.jpg");
+
+  /*background-image: url("https://wallpaperscraft.com/image/black_background_lines_scratches_69440_1920x1080.jpg");*/
+  background-image: url(/img/CoWo2.png);
   overflow: hidden;
 }
 

@@ -1,5 +1,5 @@
 // CHANGE THE SERVER URL WITH INTERNAL NETWORK PUBLIC ADDRESS
-var serverURL = "149.31.202.109:3000";
+var serverURL = "192.168.0.5:3000";
 var tableId = generateID();
 var idCounter = 0;
 var cardsOnTheTable = [];
@@ -98,6 +98,10 @@ function checkTableStatusForAnimation(card) {
 
       runAnimationWithData("rainAnimation");
 
+    } else if ((firstCard.type === 'snow' && card.type === 'flash') || (firstCard.type === 'flash' && card.type === 'snow')) {
+
+      runAnimationWithData("rainAnimation");  
+
     } else if ((firstCard.type === 'water' && card.type === 'fish') || (firstCard.type === 'fish' && card.type === 'water')) {
 
       runAnimationWithData("aquariumAnimation");
@@ -106,12 +110,16 @@ function checkTableStatusForAnimation(card) {
 
       runAnimationWithData("snowAnimation");
 
+    } else if ((firstCard.type === 'snow' && card.type === 'ice') || (firstCard.type === 'ice' && card.type === 'snow')) {
+
+      runAnimationWithData("snowAnimation");  
+
     } else if ((firstCard.type === 'carrot' && card.type === 'snow') || (firstCard.type === 'snow' && card.type === 'carrot')) {
 
       runAnimationWithData("snowmanAnimation");
 
     } else {
-      // no matching action, do nothing.
+      runAnimationWithData("cowoAnimation");
     }
 
     // clean the table for the next round after 1.3 seconds
@@ -130,7 +138,7 @@ function openCloseWindow(endpoint) {
 
   setTimeout(function () {
     newWindow.close();
-  }, 4000);
+  }, 6000);
 }
 
 function injectCardToHtml(id, angle, type) {

@@ -9,6 +9,8 @@ function runAnimationWithData(targetAnimation) {
     targetAnimationData = aquariumAnimationData;
   } else if (targetAnimation === "snowmanAnimation") {
     targetAnimationData = snowmanAnimationData;
+  } else if (targetAnimation === "cowoAnimation") {
+    targetAnimationData = cowoAnimationData;
   }
 
   var animData = {
